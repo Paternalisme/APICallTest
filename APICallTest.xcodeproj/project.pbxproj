@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83840CE51990E5DD00FA23CF /* ApiNewTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 83840CE41990E5DD00FA23CF /* ApiNewTag.m */; };
+		83840CEA199129D100FA23CF /* APICall.m in Sources */ = {isa = PBXBuildFile; fileRef = 83840CE7199129D100FA23CF /* APICall.m */; };
+		83840CEB199129D100FA23CF /* APICallAudioUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 83840CE9199129D100FA23CF /* APICallAudioUrl.m */; };
 		9A047B35198AA25A00608E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A047B34198AA25A00608E0D /* Foundation.framework */; };
 		9A047B37198AA25A00608E0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A047B36198AA25A00608E0D /* CoreGraphics.framework */; };
 		9A047B39198AA25A00608E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A047B38198AA25A00608E0D /* UIKit.framework */; };
 		9A047B3F198AA25A00608E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A047B3D198AA25A00608E0D /* InfoPlist.strings */; };
 		9A047B41198AA25A00608E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A047B40198AA25A00608E0D /* main.m */; };
 		9A047B45198AA25A00608E0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A047B44198AA25A00608E0D /* AppDelegate.m */; };
-		9A047B48198AA25A00608E0D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A047B46198AA25A00608E0D /* Main_iPhone.storyboard */; };
 		9A047B4B198AA25A00608E0D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A047B49198AA25A00608E0D /* Main_iPad.storyboard */; };
 		9A047B4E198AA25A00608E0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A047B4D198AA25A00608E0D /* ViewController.m */; };
 		9A047B50198AA25A00608E0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A047B4F198AA25A00608E0D /* Images.xcassets */; };
@@ -22,6 +24,8 @@
 		9A047B59198AA25A00608E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A047B38198AA25A00608E0D /* UIKit.framework */; };
 		9A047B61198AA25A00608E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A047B5F198AA25A00608E0D /* InfoPlist.strings */; };
 		9A047B63198AA25A00608E0D /* APICallTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A047B62198AA25A00608E0D /* APICallTestTests.m */; };
+		9A3CFE01199235EA0048CED9 /* APITagCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CFE00199235EA0048CED9 /* APITagCall.m */; };
+		9AD6336D198F963700D3D6BF /* plop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD6336B198F963700D3D6BF /* plop.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83840CE31990E5DD00FA23CF /* ApiNewTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiNewTag.h; path = ../ApiNewTag.h; sourceTree = "<group>"; };
+		83840CE41990E5DD00FA23CF /* ApiNewTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiNewTag.m; path = ../ApiNewTag.m; sourceTree = "<group>"; };
+		83840CE6199129D100FA23CF /* APICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICall.h; sourceTree = "<group>"; };
+		83840CE7199129D100FA23CF /* APICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICall.m; sourceTree = "<group>"; };
+		83840CE8199129D100FA23CF /* APICallAudioUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICallAudioUrl.h; sourceTree = "<group>"; };
+		83840CE9199129D100FA23CF /* APICallAudioUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICallAudioUrl.m; sourceTree = "<group>"; };
 		9A047B31198AA25A00608E0D /* APICallTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICallTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A047B34198AA25A00608E0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A047B36198AA25A00608E0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +55,6 @@
 		9A047B42198AA25A00608E0D /* APICallTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APICallTest-Prefix.pch"; sourceTree = "<group>"; };
 		9A047B43198AA25A00608E0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A047B44198AA25A00608E0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A047B47198AA25A00608E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9A047B4A198AA25A00608E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		9A047B4C198AA25A00608E0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A047B4D198AA25A00608E0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -55,6 +64,24 @@
 		9A047B5E198AA25A00608E0D /* APICallTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APICallTestTests-Info.plist"; sourceTree = "<group>"; };
 		9A047B60198AA25A00608E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A047B62198AA25A00608E0D /* APICallTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APICallTestTests.m; sourceTree = "<group>"; };
+		9A0D0CCC198BE17100D5D2FD /* SBJson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4.h; sourceTree = "<group>"; };
+		9A0D0CCD198BE17100D5D2FD /* SBJson4Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4Parser.h; sourceTree = "<group>"; };
+		9A0D0CCE198BE17100D5D2FD /* SBJson4Parser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
+		9A0D0CCF198BE17100D5D2FD /* SBJson4StreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParser.h; sourceTree = "<group>"; };
+		9A0D0CD0198BE17100D5D2FD /* SBJson4StreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParser.m; sourceTree = "<group>"; };
+		9A0D0CD1198BE17100D5D2FD /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParserState.h; sourceTree = "<group>"; };
+		9A0D0CD2198BE17100D5D2FD /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParserState.m; sourceTree = "<group>"; };
+		9A0D0CD3198BE17100D5D2FD /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
+		9A0D0CD4198BE17100D5D2FD /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
+		9A0D0CD5198BE17100D5D2FD /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriter.h; sourceTree = "<group>"; };
+		9A0D0CD6198BE17100D5D2FD /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriter.m; sourceTree = "<group>"; };
+		9A0D0CD7198BE17100D5D2FD /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriterState.h; sourceTree = "<group>"; };
+		9A0D0CD8198BE17100D5D2FD /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
+		9A0D0CD9198BE17100D5D2FD /* SBJson4Writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
+		9A0D0CDA198BE17100D5D2FD /* SBJson4Writer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
+		9A3CFDFF199235EA0048CED9 /* APITagCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APITagCall.h; sourceTree = "<group>"; };
+		9A3CFE00199235EA0048CED9 /* APITagCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITagCall.m; sourceTree = "<group>"; };
+		9AD6336C198F963700D3D6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/plop.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +111,12 @@
 		9A047B28198AA25A00608E0D = {
 			isa = PBXGroup;
 			children = (
+				9A3CFDFF199235EA0048CED9 /* APITagCall.h */,
+				9A3CFE00199235EA0048CED9 /* APITagCall.m */,
+				83840CE6199129D100FA23CF /* APICall.h */,
+				83840CE7199129D100FA23CF /* APICall.m */,
+				83840CE8199129D100FA23CF /* APICallAudioUrl.h */,
+				83840CE9199129D100FA23CF /* APICallAudioUrl.m */,
 				9A047B3A198AA25A00608E0D /* APICallTest */,
 				9A047B5C198AA25A00608E0D /* APICallTestTests */,
 				9A047B33198AA25A00608E0D /* Frameworks */,
@@ -103,6 +136,7 @@
 		9A047B33198AA25A00608E0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A0D0CCB198BE17100D5D2FD /* objc */,
 				9A047B34198AA25A00608E0D /* Foundation.framework */,
 				9A047B36198AA25A00608E0D /* CoreGraphics.framework */,
 				9A047B38198AA25A00608E0D /* UIKit.framework */,
@@ -114,10 +148,13 @@
 		9A047B3A198AA25A00608E0D /* APICallTest */ = {
 			isa = PBXGroup;
 			children = (
+				9A237912198F95A200AC0AEC /* iPad */,
 				9A047B43198AA25A00608E0D /* AppDelegate.h */,
 				9A047B44198AA25A00608E0D /* AppDelegate.m */,
-				9A047B46198AA25A00608E0D /* Main_iPhone.storyboard */,
 				9A047B49198AA25A00608E0D /* Main_iPad.storyboard */,
+				9AD6336B198F963700D3D6BF /* plop.storyboard */,
+				83840CE31990E5DD00FA23CF /* ApiNewTag.h */,
+				83840CE41990E5DD00FA23CF /* ApiNewTag.m */,
 				9A047B4C198AA25A00608E0D /* ViewController.h */,
 				9A047B4D198AA25A00608E0D /* ViewController.m */,
 				9A047B4F198AA25A00608E0D /* Images.xcassets */,
@@ -153,6 +190,35 @@
 				9A047B5F198AA25A00608E0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0D0CCB198BE17100D5D2FD /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				9A0D0CCC198BE17100D5D2FD /* SBJson4.h */,
+				9A0D0CCD198BE17100D5D2FD /* SBJson4Parser.h */,
+				9A0D0CCE198BE17100D5D2FD /* SBJson4Parser.m */,
+				9A0D0CCF198BE17100D5D2FD /* SBJson4StreamParser.h */,
+				9A0D0CD0198BE17100D5D2FD /* SBJson4StreamParser.m */,
+				9A0D0CD1198BE17100D5D2FD /* SBJson4StreamParserState.h */,
+				9A0D0CD2198BE17100D5D2FD /* SBJson4StreamParserState.m */,
+				9A0D0CD3198BE17100D5D2FD /* SBJson4StreamTokeniser.h */,
+				9A0D0CD4198BE17100D5D2FD /* SBJson4StreamTokeniser.m */,
+				9A0D0CD5198BE17100D5D2FD /* SBJson4StreamWriter.h */,
+				9A0D0CD6198BE17100D5D2FD /* SBJson4StreamWriter.m */,
+				9A0D0CD7198BE17100D5D2FD /* SBJson4StreamWriterState.h */,
+				9A0D0CD8198BE17100D5D2FD /* SBJson4StreamWriterState.m */,
+				9A0D0CD9198BE17100D5D2FD /* SBJson4Writer.h */,
+				9A0D0CDA198BE17100D5D2FD /* SBJson4Writer.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		9A237912198F95A200AC0AEC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A047B4B198AA25A00608E0D /* Main_iPad.storyboard in Resources */,
+				9AD6336D198F963700D3D6BF /* plop.storyboard in Resources */,
 				9A047B50198AA25A00608E0D /* Images.xcassets in Resources */,
-				9A047B48198AA25A00608E0D /* Main_iPhone.storyboard in Resources */,
 				9A047B3F198AA25A00608E0D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83840CEA199129D100FA23CF /* APICall.m in Sources */,
 				9A047B4E198AA25A00608E0D /* ViewController.m in Sources */,
 				9A047B45198AA25A00608E0D /* AppDelegate.m in Sources */,
+				83840CEB199129D100FA23CF /* APICallAudioUrl.m in Sources */,
+				83840CE51990E5DD00FA23CF /* ApiNewTag.m in Sources */,
 				9A047B41198AA25A00608E0D /* main.m in Sources */,
+				9A3CFE01199235EA0048CED9 /* APITagCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +356,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9A047B46198AA25A00608E0D /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A047B47198AA25A00608E0D /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
 		9A047B49198AA25A00608E0D /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +370,14 @@
 				9A047B60198AA25A00608E0D /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AD6336B198F963700D3D6BF /* plop.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD6336C198F963700D3D6BF /* Base */,
+			);
+			name = plop.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,10 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APICallTest/APICallTest-Prefix.pch";
 				INFOPLIST_FILE = "APICallTest/APICallTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +476,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APICallTest/APICallTest-Prefix.pch";
 				INFOPLIST_FILE = "APICallTest/APICallTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +546,7 @@
 				9A047B68198AA25A00608E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A047B69198AA25A00608E0D /* Build configuration list for PBXNativeTarget "APICallTestTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +555,7 @@
 				9A047B6B198AA25A00608E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
