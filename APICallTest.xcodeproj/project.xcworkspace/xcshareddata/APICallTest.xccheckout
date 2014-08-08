@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A087A387-6168-410D-8F89-1C42749A8FB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>APICallTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DEF8D7B-2978-432D-9F72-2F690067B993</key>
+		<string>https://github.com/Paternalisme/APICallTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>APICallTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DEF8D7B-2978-432D-9F72-2F690067B993</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Paternalisme/APICallTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DEF8D7B-2978-432D-9F72-2F690067B993</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DEF8D7B-2978-432D-9F72-2F690067B993</string>
+			<key>IDESourceControlWCCName</key>
+			<string>APICallTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

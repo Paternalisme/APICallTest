@@ -223,9 +223,17 @@
         
         [self.test sd_setImageWithURL:[NSURL URLWithString:url]
                      placeholderImage:[UIImage imageNamed:@"placeholder.png"]
-                            completed:^(UIImage *image, NSError *error,SDImageCacheType cacheType, NSURL *imageURL) {/*... completion code here ...*/}];
+                            completed:^(UIImage *image, NSError *error,SDImageCacheType cacheType, NSURL *imageURL) {
         
-     
+                                self.test.frame = CGRectMake(self.test.frame.origin.x, self.test.frame.origin.y,
+                                                             image.size.width/2, image.size.height/2 );
+                                
+                            
+                            }];
+        
+        
+        
+        
     }];
 }
 
