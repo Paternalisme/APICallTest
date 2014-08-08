@@ -22,9 +22,10 @@
     return playToken;
 }
 
-- (void) getPlayToken
+- (void) getPlayToken:(void(^)(NSString *))completion
 {
-    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+   
     NSString *restCallString = @"http://8tracks.com/sets/new.json?api_version=3&api_key=f3a1edd4dba9ad0679f06d846b58814df1a24122";
     
     NSURL *restURL = [NSURL URLWithString:restCallString];
@@ -39,11 +40,12 @@
         if (localError)
         NSLog(@"JSONObjectWithData error: %@", localError);
         playToken = [parsedObject valueForKey:@"play_token"];
+        completion(playToken);
     }
     else{
         //check error domain and code
     }
-    
+    });
 }
 
 

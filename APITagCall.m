@@ -10,9 +10,9 @@
 
 @implementation APITagCall
 
-- (id) initWithURL:(NSString *)URL
++ (id) initWithURL:(NSString *)URL completion:(void(^)(NSString *, NSArray *, NSArray *, NSDictionary *))completion
 {
-    self = [super init];
+//    self = [super init];
 
     
     NSURL *restURL = [NSURL URLWithString:URL];
@@ -30,11 +30,12 @@
         NSDictionary *mix = [parsedObject valueForKey:@"mix_set"];
         
         NSArray *mixes = [mix valueForKey:@"mixes"];
-        mixId = [mixes[0] valueForKey:@"id"];
+//        mixId = [mixes[0] valueForKey:@"id"];
         
-        
+                
         NSDictionary *tagCloud = [mix valueForKey:@"tag_cloud"];
-        tags = [tagCloud valueForKey:@"tags"];
+//        tags = [tagCloud valueForKey:@"tags"];
+        completion([mixes[0] valueForKey:@"id"], [tagCloud valueForKey:@"tags"], [mix valueForKey:@"tags_list"], [mixes[0] valueForKey:@"cover_urls"]);
         
     }
     else{

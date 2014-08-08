@@ -16,7 +16,7 @@
 
 - (id) init;
 
-- (void) getAudioURL:(NSString *)mixId :(NSString *)playToken;
+- (void) getAudioURL:(NSString *)mixId :(NSString *)playToken :(int)flag :(void(^)(NSString *, NSString *,NSNumber *))completion;
 
 -(NSString *) audioURL;
 

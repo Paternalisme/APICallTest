@@ -12,9 +12,10 @@
 {
     NSString *mixId;
     NSArray *tags;
+    NSArray *tagsList;
 }
 
-- (id)initWithURL:(NSString *)URL;
++ (id)initWithURL:(NSString *)URL completion:(void(^)(NSString *, NSArray *, NSArray *, NSDictionary *))completion;
 - (NSArray *) tags;
 - (NSString *) mixId;
 

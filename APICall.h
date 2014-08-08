@@ -18,7 +18,7 @@
 
 - (id) init;
 
-- (void) getPlayToken;
+- (void) getPlayToken:(void(^)(NSString *))completion;
 
 -(NSString *) playToken;
 
